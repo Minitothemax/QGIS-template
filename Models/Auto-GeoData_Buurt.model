@@ -1366,7 +1366,7 @@
       </Option>
     </Option>
     <Option name="native:extractbylocation_3" type="Map">
-      <Option name="active" type="bool" value="true"/>
+      <Option name="active" type="bool" value="false"/>
       <Option name="alg_config"/>
       <Option name="alg_id" type="QString" value="native:extractbylocation"/>
       <Option name="color" type="QString" value=""/>
@@ -1510,7 +1510,7 @@
       </Option>
     </Option>
     <Option name="native:extractbylocation_6" type="Map">
-      <Option name="active" type="bool" value="false"/>
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
       <Option name="alg_id" type="QString" value="native:extractbylocation"/>
       <Option name="color" type="QString" value=""/>
@@ -1558,7 +1558,7 @@
       </Option>
     </Option>
     <Option name="native:extractbylocation_7" type="Map">
-      <Option name="active" type="bool" value="false"/>
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
       <Option name="alg_id" type="QString" value="native:extractbylocation"/>
       <Option name="color" type="QString" value=""/>
@@ -1606,7 +1606,7 @@
       </Option>
     </Option>
     <Option name="native:extractbylocation_8" type="Map">
-      <Option name="active" type="bool" value="false"/>
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
       <Option name="alg_id" type="QString" value="native:extractbylocation"/>
       <Option name="color" type="QString" value=""/>
@@ -1767,7 +1767,7 @@
       </Option>
     </Option>
     <Option name="native:fieldcalculator_29" type="Map">
-      <Option name="active" type="bool" value="false"/>
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
       <Option name="alg_id" type="QString" value="native:fieldcalculator"/>
       <Option name="color" type="QString" value=""/>
@@ -1832,7 +1832,7 @@
       </Option>
     </Option>
     <Option name="native:fieldcalculator_30" type="Map">
-      <Option name="active" type="bool" value="false"/>
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
       <Option name="alg_id" type="QString" value="native:fieldcalculator"/>
       <Option name="color" type="QString" value=""/>
@@ -1897,7 +1897,7 @@
       </Option>
     </Option>
     <Option name="native:fieldcalculator_31" type="Map">
-      <Option name="active" type="bool" value="false"/>
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
       <Option name="alg_id" type="QString" value="native:fieldcalculator"/>
       <Option name="color" type="QString" value=""/>
@@ -2657,7 +2657,7 @@
       </Option>
     </Option>
     <Option name="native:mergevectorlayers_5" type="Map">
-      <Option name="active" type="bool" value="false"/>
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
       <Option name="alg_id" type="QString" value="native:mergevectorlayers"/>
       <Option name="color" type="QString" value=""/>
@@ -5829,7 +5829,7 @@
         </Option>
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="native:extractbylocation_3"/>
+            <Option name="child_id" type="QString" value="native:mergevectorlayers_5"/>
             <Option name="output_name" type="QString" value="OUTPUT"/>
             <Option name="source" type="int" value="1"/>
           </Option>
@@ -5837,7 +5837,7 @@
         <Option name="OPERATION" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="invalid"/>
+            <Option name="static_value" type="QString" value=""/>
           </Option>
         </Option>
         <Option name="TARGET_CRS" type="List">
@@ -6382,7 +6382,9 @@
     </Option>
     <Option name="pandenselected" type="QString" value="pand_13f4794d_04bd_49f6_81f3_a4a94d5093d6"/>
     <Option name="postcodes" type="QString" value="Postcode_2023__volledig_e32903a4_51b1_495f_abe4_c13858beb6ee"/>
-    <Option name="trafos_enexisstedin" type="QString" value="Stedin_LS_MLS_MS_4ee35c02_ce6b_4f04_9099_74aa5325cb54"/>
+    <Option name="trafos_stedinzeelandliander__ls" type="QString" value="Laagspanningsverdeelkasten_7ba36e6d_174a_468f_bd83_bcbfad7c6078"/>
+    <Option name="trafos_stedinzeelandliander__mlsonderstation" type="QString" value="Onderstations_18cd5bce_5e1d_4db4_a965_1d25c2200d25"/>
+    <Option name="trafos_stedinzeelandliander__ms" type="QString" value="Middenspanningsinstallaties_0179efc6_adc9_4c39_b545_34aefc0d9372"/>
   </Option>
   <Option name="groupBoxes"/>
   <Option name="help"/>
